@@ -8,7 +8,7 @@
 <section class="">
     <div>
       <iframe
-        src="https://www.youtube.com/embed/t7z4MLvSkJE?autoplay=1&rel=0&controls=1"
+        src="https://www.youtube.com/embed/t7z4MLvSkJE?autoplay=0&rel=0&controls=1"
         title="HAUNTED ESCAPE ROOM LEBANON"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -70,7 +70,9 @@
               <div class="card-header text-center">
                 <h2 class="h5">We guarantee a fun time, can you ESCAPE?</h2>
                 <br>
-                <h2  onclick={() => goto("/Themes")} class="h5 cursor-pointer">See Themes => </h2>
+                <button class="bg-primary-900 rounded-md px-5 py-2">
+                    <h2  onclick={() => goto("/Themes")} class="h5 cursor-pointer">See Themes => </h2>
+                </button>
               </div>
             </div>
           </div>
