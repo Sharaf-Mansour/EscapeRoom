@@ -5,6 +5,7 @@
 	import Navbar from './components/Navbar.svelte';
 	import Footer from './components/footer.svelte';
 	import {page} from "$app/stores";
+	let { children } = $props();
 </script>
 
 {#if !browser}
@@ -26,7 +27,8 @@
 	</div>
 
 	<div>
-	<slot />
+		{@render children()}
+
 	</div>
 
 

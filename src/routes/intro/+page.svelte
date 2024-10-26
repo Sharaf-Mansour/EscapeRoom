@@ -1,7 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	import AOS from 'aos';
-	import 'aos/dist/aos.css';
 	import { goto } from '$app/navigation';
 
 	$effect(() => {
