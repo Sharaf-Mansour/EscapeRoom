@@ -8,7 +8,7 @@
 <section class="">
     <div>
       <iframe
-        src="https://www.youtube.com/embed/t7z4MLvSkJE?autoplay=0&rel=0&controls=1"
+        src="https://www.youtube.com/embed/t7z4MLvSkJE?autoplay=1&rel=0&controls=1"
         title="HAUNTED ESCAPE ROOM LEBANON"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
