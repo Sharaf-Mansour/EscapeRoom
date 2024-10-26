@@ -24,8 +24,11 @@
 	<div class:active={$page.url.pathname === "/"}>
 		<Navbar/>
 	</div>
-	
+
+	<div>
 	<slot />
+	</div>
+
 
 	<div class:active={$page.url.pathname === "/"}>
 		<Footer/>

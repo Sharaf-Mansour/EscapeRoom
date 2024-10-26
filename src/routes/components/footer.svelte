@@ -16,4 +16,4 @@
 	</a>
 </div>
 
-<div class="text-center mb-2">All rights reserved @2024 haunted escape room</div>
+<div class="text-center mb-2 mt-3"><p class="cursor-pointer">popular questions</p> <br>All rights reserved @2024 haunted escape room</div>

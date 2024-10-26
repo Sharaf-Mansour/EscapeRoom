@@ -4,10 +4,10 @@
 
 <section class="h-screen home flex items-center justify-center">
 <div class="text-center">
- <h2 class="h1 font-bold">Welcome to</h2>
- <h1 class="h1 font-extrabold">Haunted Escape Room</h1>
- <img src="/logo.png" alt="Logo" class="mx-auto w-60 mt-3 mb-3" />
- <button class="primary bg-primary-900 px-10 py-3 rounded-md"
+ <h2 data-aos="fade-right" class="h1 font-bold">Welcome to</h2>
+ <h1 data-aos="fade-right" class="h1 font-extrabold">Haunted Escape Room</h1>
+ <img data-aos="fade-up" src="/logo.png" alt="Logo" class="mx-auto w-60 mt-3 mb-3" />
+ <button  data-aos="fade-down" class="primary bg-primary-900 px-10 py-3 rounded-md"
  onclick={() => goto("/Home")}
  >Know more about us</button>
 </div>

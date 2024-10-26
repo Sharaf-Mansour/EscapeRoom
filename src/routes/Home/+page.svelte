@@ -2,22 +2,16 @@
 
 <script>
         import {goto} from "$app/navigation";
+        
 </script>
 
 
-<section class="">
-    <div>
-      <iframe
-        src="https://www.youtube.com/embed/t7z4MLvSkJE?autoplay=1&rel=0&controls=1"
-        title="HAUNTED ESCAPE ROOM LEBANON"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-        class="w-full h-64 xl:h-80"
-      ></iframe>
+<section  class="flex items-center justify-center mt-3 ">
+    <div class="">
+      <video  src="HAUNTED ESCAPE ROOM LEBANON.mp4" controls autoplay class="w-full rounded-lg "></video>
     </div>
   </section>
+  
   
 <section class=" intro flex items-center justify-center h-80 mt-5">
     <div class="text-center">
@@ -27,7 +21,7 @@
 
 
     <!-- how to play  -->
-    <section class="Howtoplay mt-10 ">
+    <section class="Howtoplay mt-10 px-5 xl:px-20">
         <h1 class="text-center h1 font-bold mt-5 mb-10">How To Play</h1>
         <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 xl:gap-2 md:gap-2">
           
