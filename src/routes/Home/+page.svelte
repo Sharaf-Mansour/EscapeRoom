@@ -8,7 +8,7 @@
 
 <section  class="flex items-center justify-center mt-3 ">
     <div class="">
-      <video  src="HAUNTED ESCAPE ROOM LEBANON.mp4" controls  class="w-full rounded-lg "></video>
+      <video  src="HAUNTED ESCAPE ROOM LEBANON.mp4" controls autoplay class="w-full rounded-lg "></video>
     </div>
   </section>
   
