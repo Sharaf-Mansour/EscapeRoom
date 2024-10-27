@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+
 	import { goto } from '$app/navigation';
 
 	$effect(() => {
@@ -19,7 +19,7 @@
 		/>
 		<button
 			data-aos="fade-down"
-			class="primary bg-primary-900 px-10 py-3 rounded-md"
+			class=" bg-yellow-300 px-10 py-3 rounded-md text-black "
 			onclick={() => goto('/Home')}
 		>
 			Know more about us

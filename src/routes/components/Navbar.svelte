@@ -19,6 +19,6 @@
 
 <style>
     .active {
-   @apply variant-filled-primary px-5 rounded-md;
+   @apply bg-yellow-300 px-5 rounded-md text-black;
  }
 </style>

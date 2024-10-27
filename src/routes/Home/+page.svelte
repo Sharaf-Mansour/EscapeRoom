@@ -28,18 +28,20 @@
 
 {/if}
 
+
+
 <section class="container">
 
 
 
   <section  class="flex items-center justify-center mt-3 ">
     <div class="">
-      <video onloadeddata={loading} loading="lazy" preload="auto"   src={videoSrc}  controls autoplay class="w-full rounded-lg "></video>
+      <video onloadeddata={loading} loading="lazy" preload="auto"   src={videoSrc}  controls  autoplay class="w-full rounded-lg "></video>
     </div>
   </section>
   
   
-<section class=" intro flex items-center justify-center h-80 mt-5">
+<section class=" intro flex items-center justify-center h-80 mt-12">
     <div class="text-center">
      <h2 class="h3 p-5 xl:px-56">Welcome to Haunted, where reality merges with nightmares...</h2>
     </div>
@@ -90,7 +92,7 @@
               <div class="card-header text-center">
                 <h2 class="h5">We guarantee a fun time, can you ESCAPE?</h2>
                 <br>
-                <button class="bg-primary-900 rounded-md px-5 py-2">
+                <button class="bg-yellow-300 rounded-md px-5 py-2 text-black">
                     <h2  onclick={() => goto("/Themes")} class="h5 cursor-pointer">See Themes => </h2>
                 </button>
               </div>
