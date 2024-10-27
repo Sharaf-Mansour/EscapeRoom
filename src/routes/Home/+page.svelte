@@ -15,7 +15,6 @@
   
 
 <div class="h-screen home flex items-center justify-center bg-black ">
-  loading...
 	<ProgressRadial />
 </div>
   

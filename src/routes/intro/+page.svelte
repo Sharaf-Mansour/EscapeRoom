@@ -28,7 +28,7 @@
 
 
 {/if}
-<section   class="h-screen home flex items-center justify-center">
+<section class="h-screen home flex items-center justify-center">
 	<div class="text-center">
 		<h2 data-aos="fade-right" class="h1 font-bold">Welcome to</h2>
 		<h1 data-aos="fade-right" class="h1 font-extrabold">Haunted Escape Room</h1>
