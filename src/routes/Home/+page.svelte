@@ -34,7 +34,7 @@
 
   <section  class="flex items-center justify-center mt-3 ">
     <div class="">
-      <video onloadeddata={loading} loading="lazy" preload="auto"   src={videoSrc}  controls  class="w-full rounded-lg "></video>
+      <video onloadeddata={loading} loading="lazy" preload="auto"   src={videoSrc}  controls autoplay class="w-full rounded-lg "></video>
     </div>
   </section>
   
