@@ -8,7 +8,7 @@
 
 <section  class="flex items-center justify-center mt-3 ">
     <div class="">
-      <video preload="auto"  src="video.mp4" controls  class="w-full rounded-lg "></video>
+      <video loading="lazy" preload="auto"  src="video.mp4" controls  class="w-full rounded-lg "></video>
     </div>
   </section>
   
