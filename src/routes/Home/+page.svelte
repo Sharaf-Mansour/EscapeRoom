@@ -15,19 +15,20 @@
   
 
 <div class="h-screen home flex items-center justify-center bg-black ">
+
 	<ProgressRadial />
 </div>
   
 <style>
-     .content{
-	 display:none;
+    .container{
+	    display:none;
    }
 </style>
 
 
 {/if}
 
-<section class="content">
+<section class="container">
 
 
 
