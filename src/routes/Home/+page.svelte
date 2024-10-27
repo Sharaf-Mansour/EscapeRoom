@@ -20,7 +20,7 @@
 </div>
   
 <style>
-     .body{
+     .content{
 	 display:none;
    }
 </style>
@@ -28,7 +28,7 @@
 
 {/if}
 
-<section class="body">
+<section class="content">
 
 
 
