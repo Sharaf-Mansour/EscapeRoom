@@ -26,9 +26,8 @@
 		<Navbar/>
 	</div>
 
-	<div>
+	<div class="flex flex-row justify-center">
 		{@render children()}
-
 	</div>
 
 
